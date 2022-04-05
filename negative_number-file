@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * creating a program that checks if number is negative
+ * if number is positive, then is gives error.
+ * %d format specifier of an integer
+ *this code uses if else condition.
+ */
+ int main ()
+ {
+     int number;
+     printf("Enter number: ");
+     scanf("%d", &number);
+     if (number > 0)
+     {
+         printf("Error");
+     }
+     else if ("number <= 0")
+     {
+         printf("Wonderful, you succeeded");
+     }
+     return (0);
+     }
+
