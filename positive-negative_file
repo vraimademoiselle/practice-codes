@@ -1,0 +1,32 @@
+Q. Can you create a program to check whether a number is positive or negative or 0?
+
+If number is positive, print "The number is positive"
+If number is negative, print "The number is negative"
+(and) If number is 0, print "The number is 0"Q. Can you create a program to check whether a number is positive or negative or 0?
+
+#include <stdio.h>
+/**
+ * creating a program that checks whether a number is positive,negative or 0
+ * %lf is the format specifier of an integer
+ * this code use if else condition.
+ */
+ int main ()
+ {
+     double number;
+     printf("Énter a number: ");
+     scanf("%lf", &number);
+     
+      if (number > 0) 
+     {
+     printf("Its a positive number.");
+     }
+     else if(number < 0)
+     {
+        printf("its a Negative number.");
+     }
+     else 
+     {
+         printf("Number is 0");
+     }
+       return (0);
+
