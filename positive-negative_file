@@ -7,7 +7,7 @@ If number is negative, print "The number is negative"
 #include <stdio.h>
 /**
  * creating a program that checks whether a number is positive,negative or 0
- * %lf is the format specifier of an integer
+ * %lf is the format specifier of an double(data type);
  * this code use if else condition.
  */
  int main ()
@@ -29,4 +29,4 @@ If number is negative, print "The number is negative"
          printf("Number is 0");
      }
        return (0);
-
+}
