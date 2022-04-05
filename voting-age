@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+/**
+ * creating a program that checks if someone is under age to vote.
+ * if someone is under 18, it say you aint eligible.
+ * %d format specifier of an integer
+ * this code use if else condition.
+ */
+
+ int main ()
+
+ {
+
+  int age;
+
+      printf("Enter your age: ");
+
+     scanf("%d", &age);
+
+     if (age >= 18)
+
+     {
+
+         printf("Eligible to vote Homie");
+
+     }
+
+     if (age < 18)
+
+     {
+
+         printf("not Eligible, Hard pass");
+
+     }
+
+     
+
+     return (0);
+
+     }
