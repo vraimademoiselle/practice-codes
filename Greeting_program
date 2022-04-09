@@ -1,0 +1,15 @@
+nclude <stdio.h>
+/**
+ * this programs prints Assalamu Aleikum
+ * this is me revising functions.
+ */
+void salan()
+{
+    printf("Assalamu Aleikum!");
+}
+int main()
+{
+    //i am calling salan here so it can print Assalamu Aleikum
+    salan();
+    return 0;
+}
