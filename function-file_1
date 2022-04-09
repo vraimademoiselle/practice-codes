@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * This program creates a function that accepts a number,
+ * then computes the square of the number,then prints it
+ * int number is a parameter number.
+ */ 
+ 
+//add your function
+void calculateSquare(int number)
+{
+    //here we find the square of number
+    int square = number * number;
+    printf("Square of %d is %d\n", number, square);
+}
+int main() {
+    //call the function here while giving it a value in the parenthesis
+    calculateSquare(5);
+   
+    
+    return 0;
+}
